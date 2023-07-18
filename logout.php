@@ -6,5 +6,5 @@ session_start();
 session_destroy();
  
 // mengalihkan halaman login
-header("location:formlogin.php?pesan=Anda berhasil logout.");
+header("location:formlogin.php?");
 ?>
